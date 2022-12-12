@@ -18,7 +18,7 @@ export const LoadingContainer = styled.div<LoadingProps>`
     height: ${({ size }) => (size ? `${size}px` : "80px")};
     margin: 0;
     transition: all 0.5s;
-    border: ${({ size }) => (size ? `${size / 6}px` : "80px")} solid #888;
+    border: ${({ size }) => (size ? `${size / 8}px` : "80px")} solid #888;
     border-radius: 50%;
     animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-color: #888 transparent transparent transparent;
