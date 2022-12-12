@@ -10,7 +10,7 @@ export default createGlobalStyle`
     font-family: 'Roboto', sans-serif;    
   }
   body {
-    background-color: #22272e;
+    background-color: #f7f7f7;
     color: #fff;
     display: flex;
     justify-content: center;
