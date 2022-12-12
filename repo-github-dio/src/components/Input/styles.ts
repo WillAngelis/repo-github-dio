@@ -15,10 +15,11 @@ export const Input = styled.input`
   outline: none;
   border: none;
   color: #000;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   width: 100%;
   padding: 10px;
+  margin-left: 20px;
   ::placeholder {
     font-weight: 500;
   }
@@ -29,7 +30,7 @@ export const Button = styled.button`
   outline: none;
   border: none;
   color: #444;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-decoration: underline;
   text-decoration-color: #444;
